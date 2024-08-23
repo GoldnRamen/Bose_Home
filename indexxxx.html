@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        #back_to_top{
+            position:fixed;
+            bottom:20px;
+            right:20px;
+            display: none;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- <h1 class="text-red-700 text-4xl text-center ">Summimasen</h1> -->
+    <nav class="bg-white w-full fixed z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="#" class="text-2xl">Ohayo Gozaimasu</a>
+                <div class="block lg:hidden">
+                    <button id="mobile-btn" class="focus:outline-none">Apparate</button>
+                </div>
+                <ul id="navbar" class="hidden lg:flex space-x-4">
+                    <li><a href="#" class="hover:text-blue-700">Home</a></li>
+                    <li><a href="#about" class="hover:text-blue-700">About</a></li>
+                    <li><a href="#work" class="hover:text-blue-700">Work</a></li>
+                    <li><a href="#skills" class="hover:text-blue-700">Skills</a></li>
+                    <li><a href="#contact" class="hover:text-blue-700">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden">
+            <ul class="flex flex-col items-center bg-white py-4 space-y-4">
+                <li><a href="#" class="hover:text-blue-600 home">HOME</a></li>
+                <li><a href="#about" class="hover:text-blue-600 about">ABOUT</a></li>
+                <li><a href="#work" class="hover:text-blue-600 work">WORK</a></li>
+                <li><a href="#skills" class="hover:text-blue-600 skills">SKILLS</a></li>
+                <li><a href="#contact" class="hover:text-blue-600 contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="bg-gradient-to-r from-blue-600 via-red-800 to-blue-400 text-white py-20">
+        <div class="container mx-auto text-center mt-16">
+            <h1 class="text-4xl md:text-6xl lg:text-6xl font-bold">Konnichiwa, watashi wa Mechani-ku desu</h1>
+            <p class="mt-4 text-xl md:text-2xl">Hontouni ii Mekani-ku desu</p>
+            <a href="#" class="mt-6 inline-block bg-white text-blue-500 px-6 py-2 rounded-full hover:bg-gray-300">Watashino tsukue de mimashou o kudasai</a>
+        </div>
+    </section>
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Watashi ni tsuite</h2>
+            <p class="text-lg">
+                Boku no namae wa Adelson desu. Enjiniya no sumaho to gakusai desu. Kono gakkou ga hontou ni suki desu. Boku no kaji wa tanoshi design.
+            </p>
+        </div>
+    </section>
+    <section id="work" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Boku no kaji desu</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full" src="https://ideogram.ai/assets/progressive-image/balanced/response/fkM62H89SLGzoelLZjFJdw" alt="IMAGES">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full" src="https://ideogram.ai/assets/progressive-image/balanced/response/fkM62H89SLGzoelLZjFJdw" alt="IMAGES">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full" src="https://ideogram.ai/assets/progressive-image/balanced/response/fkM62H89SLGzoelLZjFJdw" alt="IMAGES">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full" src="https://ideogram.ai/assets/progressive-image/balanced/response/fkM62H89SLGzoelLZjFJdw" alt="IMAGES">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full" src="https://ideogram.ai/assets/progressive-image/balanced/response/fkM62H89SLGzoelLZjFJdw" alt="IMAGES">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Watashi no shigoto</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-300 rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full" src="https://ideogram.ai/assets/progressive-image/balanced/response/x9m4SEgPQbq-YlCJSUZ4Ig" alt="IMAGES">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 h-80 rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-48" src="https://ideogram.ai/assets/progressive-image/balanced/response/qZT-GPliRpKsNPx5yfzJrg" alt="IMAGES">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full" src="https://ideogram.ai/assets/progressive-image/balanced/response/VEvKhJ1ZROuZLJ_5YXbPfw" alt="IMAGES">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full" src="https://ideogram.ai/assets/progressive-image/balanced/response/2MqQQOS-R2Gch0q29Tf3Ww" alt="IMAGES">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 rounded-lg shadow-lg overflow-hidden">
+                    <!-- <img class="w-full" src="https://ideogram.ai/assets/progressive-image/balanced/response/fkM62H89SLGzoelLZjFJdw" alt="IMAGES"> -->
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Title 1</h3>
+                        <p class="text-gray-600">
+                            bachkoi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-">Contact Me</h2>
+            <p class="text-lg mb-4">Feel free to reach me for any auto repair jobs</p>
+            <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="name" class="block text-left text-gray-700 font-semibold">Name</label>
+                        <input type="text" id="name" name="name" required
+                        class="w-full px-4 py-2 mt-2 border rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-600"
+                        >
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-left text-gray-700 font-semibold">Email</label>
+                        <input type="text" id="email" name="email" required
+                        class="w-full px-4 py-2 mt-2 border rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-600"
+                        >
+                    </div>
+                    <div class="mb-4">
+                        <label for="subject" class="block text-left text-gray-700 font-semibold">Message</label>
+                        <textarea type="text" id="message" name="message" rows="12" required class="w-full px-4 py-2 mt-2 border rounded-sm focus:outline-none focus:ring-2 focus:ring-black">
+
+                        </textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-red-950 text-white px-4 py-2 rounded-lg hover:bg-white hover:text-black hover:border hover:border-red-950 focus:outline-none focus:ring-2 focus:ring-white"> Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <button id="back_to_top" class="bg-blue-600 text-white p-3 rounded-full shadow-lg flex  hover:bg-blue-500">Back to Top</button>
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p class="">&copy; 2024 The Bald Baron. All rights reserved</p>
+        </div>
+    </footer>
+    <script>
+        const mobiMenuBtn = document.getElementById("mobile-btn")
+        const mobihome = document.getElementsByClassName("home")[0]
+        const mobiabout = document.getElementsByClassName("about")[0]
+        const mobiwork = document.getElementsByClassName("work")[0]
+        const mobiskills = document.getElementsByClassName("skills")[0]
+        const mobicontact = document.getElementsByClassName("contact")[0]
+        const mobiMenu = document.getElementById("mobile-menu")
+        mobiMenuBtn.addEventListener("click", ()=>{
+            mobiMenu.classList.toggle("hidden")
+        })
+
+        const back_to_top = document.getElementById("back_to_top")
+        window.addEventListener("scroll", ()=>{
+            if(window.scrollY > 500){
+                back_to_top.style.display = "block"
+            }
+            else{
+                back_to_top.style.display = "none"
+            }
+        })
+        back_to_top.addEventListener("click", ()=>{
+            window.scrollTo({top:0})
+        })
+        mobihome.addEventListener("click", ()=>{
+            mobiMenu.classList.toggle("hidden", behaviour="smooth")
+        })
+        mobiabout.addEventListener("click", ()=>{
+            mobiMenu.classList.toggle("hidden", behaviour="smooth")
+        })
+        mobiskills.addEventListener("click", ()=>{
+            mobiMenu.classList.toggle("hidden", behaviour="smooth")
+        })
+        mobiwork.addEventListener("click", ()=>{
+            mobiMenu.classList.toggle("hidden", behaviour="smooth")
+        })
+        mobicontact.addEventListener("click", ()=>{
+            mobiMenu.classList.toggle("hidden", behaviour="smooth")
+        })
+    </script>
+</body>
+</html>
